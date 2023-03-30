@@ -1,5 +1,11 @@
 # @ctx-core/crypto
 
+## 1.1.1
+
+### Patch Changes
+
+- crypto: - node:crypto: only use globalThis.crypto
+
 ## 1.1.0
 
 ### Minor Changes
