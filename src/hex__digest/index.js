@@ -1,4 +1,4 @@
-import { crypto } from '../crypto/index.js'
+import { crypto_ } from '../crypto/index.js'
 /**
  * @param {import('../_types').digest__algorithm_T}algorithm
  * @param {string|BufferSource}message
@@ -13,6 +13,7 @@ export async function hex__digest(
 		// encode as (utf-8) Uint8Array
 		message = new TextEncoder().encode(message)
 	}
+	const crypto = await crypto_()
 	const hash_buffer =
 		await crypto.subtle.digest(algorithm, message) // hash the message
 	const hash_array =

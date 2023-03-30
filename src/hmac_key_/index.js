@@ -1,4 +1,4 @@
-import { crypto } from '../crypto/index.js'
+import { crypto_ } from '../crypto/index.js'
 /**
  * @param {import('../_types').digest__algorithm_T}algorithm
  * @param {string|BufferSource}key
@@ -6,7 +6,7 @@ import { crypto } from '../crypto/index.js'
  * @see https://lukasmurdock.com/web-hmac/
  * @private
  */
-export function hmac_key_(
+export async function hmac_key_(
 	algorithm,
 	key
 ) {
@@ -14,6 +14,7 @@ export function hmac_key_(
 		const encoder = new TextEncoder()
 		key = encoder.encode(key)
 	}
+	const crypto = await crypto_()
 	/**
 	 * @see https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/importKey
 	 */

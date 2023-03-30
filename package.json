@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/crypto",
-	"version": "1.1.2",
+	"version": "1.2.0",
 	"description": "ctx-core isomorphic web crypto",
 	"keywords": [
 		"ctx-core",

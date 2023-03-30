@@ -1,5 +1,12 @@
 # @ctx-core/crypto
 
+## 1.2.0
+
+### Minor Changes
+
+- crypto: globalThis.crypto only: - import('node:crypto').then($=>$.webcrypto)
+- - crypto\_(): return globalThis.crypto || import('node:crypto').then($=>$.webcrypto)
+
 ## 1.1.2
 
 ### Patch Changes
