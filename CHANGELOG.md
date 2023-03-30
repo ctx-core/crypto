@@ -1,5 +1,11 @@
 # @ctx-core/crypto
 
+## 1.1.2
+
+### Patch Changes
+
+- crypto: fix: fallback to await import('node:crypto').then($=>$.webcrypto)
+
 ## 1.1.1
 
 ### Patch Changes
