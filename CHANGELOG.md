@@ -1,5 +1,11 @@
 # @ctx-core/crypto
 
+## 1.2.20
+
+### Patch Changes
+
+- @ctx-core/monorepo: ^20.3.3 -> ^20.3.4
+
 ## 1.2.19
 
 ### Patch Changes
