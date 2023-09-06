@@ -1,5 +1,11 @@
 # @ctx-core/crypto
 
+## 1.2.21
+
+### Patch Changes
+
+- version bump
+
 ## 1.2.20
 
 ### Patch Changes
