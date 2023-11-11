@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/crypto",
-	"version": "1.2.22",
+	"version": "1.3.0",
 	"description": "ctx-core isomorphic web crypto",
 	"keywords": [
 		"ctx-core",
@@ -18,10 +18,12 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"types": "./src/index.d.ts",
-	"svelte": "./src/index.js",
+	"files": [
+		"*.d.ts"
+	],
+	"types": "./index.d.ts",
 	"exports": {
-		".": "./src/index.js",
+		".": "./index.js",
 		"./package.json": "./package.json"
 	},
 	"scripts": {
@@ -33,7 +35,9 @@
 		"test-unit": "tsx node_modules/uvu/bin.js . '\\.test\\.(ts|js)$'",
 		"test-unit-coverage": "c8 pnpm test-unit"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"ctx-core": "^2.1.0"
+	},
 	"devDependencies": {
 		"c8": "^8.0.1",
 		"check-dts": "^0.7.2",
