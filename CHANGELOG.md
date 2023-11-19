@@ -1,5 +1,17 @@
 # @ctx-core/crypto
 
+## 1.3.17
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@4.0.0
+
 ## 1.3.16
 
 ### Patch Changes
