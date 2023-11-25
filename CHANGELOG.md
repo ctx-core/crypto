@@ -1,5 +1,12 @@
 # @ctx-core/crypto
 
+## 1.3.26
+
+### Patch Changes
+
+- tsx: ^4.4.0 -> ^4.5.0
+- ctx-core: ^4.4.0 -> ^4.5.0
+
 ## 1.3.25
 
 ### Patch Changes
