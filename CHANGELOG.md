@@ -1,5 +1,20 @@
 # @ctx-core/crypto
 
+## 1.4.0
+
+### Minor Changes
+
+- - - hex\_\_base64\*
+  - - short*uuid*
+  - - polyfill*uuid*
+
+### Patch Changes
+
+- Updated dependencies
+- Updated dependencies
+- Updated dependencies
+  - ctx-core@5.6.0
+
 ## 1.3.65
 
 ### Patch Changes
