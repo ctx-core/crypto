@@ -1,5 +1,11 @@
 # @ctx-core/crypto
 
+## 1.4.6
+
+### Patch Changes
+
+- ctx-core: ^5.10.0 -> ^5.11.0
+
 ## 1.4.5
 
 ### Patch Changes
