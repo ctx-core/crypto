@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/crypto",
-	"version": "1.4.37",
+	"version": "1.4.38",
 	"description": "ctx-core isomorphic web crypto",
 	"keywords": [
 		"ctx-core",
@@ -39,7 +39,7 @@
 		"test:unit:coverage": "c8 pnpm test:unit"
 	},
 	"dependencies": {
-		"ctx-core": "^5.25.3"
+		"ctx-core": "^5.25.4"
 	},
 	"devDependencies": {
 		"c8": "^9.1.0",
