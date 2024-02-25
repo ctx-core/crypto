@@ -1,5 +1,18 @@
 # @ctx-core/crypto
 
+## 1.4.78
+
+### Patch Changes
+
+- short*uuid*: more efficient algorithm
+
+  size-limit:
+
+      short uuid: - 1 B
+
+- Updated dependencies
+  - ctx-core@6.4.6
+
 ## 1.4.77
 
 ### Patch Changes
