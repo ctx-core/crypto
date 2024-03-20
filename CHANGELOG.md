@@ -1,5 +1,13 @@
 # @ctx-core/crypto
 
+## 1.5.12
+
+### Patch Changes
+
+- package.json: author: url,email
+- Updated dependencies
+  - ctx-core@6.6.1
+
 ## 1.5.11
 
 ### Patch Changes
