@@ -1,5 +1,11 @@
 # @ctx-core/crypto
 
+## 1.5.37
+
+### Patch Changes
+
+- version bump
+
 ## 1.5.36
 
 ### Patch Changes
