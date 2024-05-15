@@ -1,5 +1,11 @@
 # @ctx-core/crypto
 
+## 1.5.40
+
+### Patch Changes
+
+- ctx-core: ^7.2.8 -> ^7.2.9
+
 ## 1.5.39
 
 ### Patch Changes
