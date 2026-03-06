@@ -1,5 +1,13 @@
 # @ctx-core/crypto
 
+## 1.5.64
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+- Updated dependencies
+  - ctx-core@7.2.34
+
 ## 1.5.63
 
 ### Patch Changes
